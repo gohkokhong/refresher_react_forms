@@ -90,7 +90,7 @@ const NoteForm = ({ notes, setNotes }) => {
                         name='description'
                         value={formData.description}
                         onChange={handleChange}
-                        required
+                        required='required'
                     />
 
                     
